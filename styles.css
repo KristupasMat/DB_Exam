@@ -1,0 +1,112 @@
+html, body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: grey;
+}
+
+h1, h2, h4, h5 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+section.peopleProfiles h3{
+    text-align: center;
+}
+img.imagesUsers {
+    width: 150px;
+    float: left;
+    padding: 1em 2em;
+}
+div.userProfile{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+div.personalProfile h3, p {
+    padding: 0.5em;
+}
+div#viewOthers {
+    padding: 1em;
+    text-align: center;
+}
+div#yourProfile{
+    padding: 1em;
+    text-align: center;
+}
+img.newUser {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+button.addProfile, button.updateProfile {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5em;
+      margin-top: 25px;
+}
+div.likeCount {
+    float: left;
+}
+
+
+section.peopleProfiles {
+    background-color: white;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+div.singleProfile {
+    height: 300px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+div.singleProfile h3 {
+    text-align: center;
+}
+div.singleProfile {
+    float: right;
+}
+div.singleProfile p {
+    text-align: center;
+    padding: 0.5em;
+}
+div.profileChoices {
+    text-align: center;
+}
+div.profileChoices button{
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: white;
+
+}
+div.profileChoices button:hover , input.submitProfile{
+    cursor: pointer;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+form input, textarea {
+    width: 200px;
+}
+form label, input, textarea {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.2em;
+}
+form input.submitProfile {
+    margin-top: 1em;
+    padding: 0.5em;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: white;
+}
